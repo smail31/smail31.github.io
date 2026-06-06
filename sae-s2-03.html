@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAÉ S2.03 — Portfolio Smail Ouakli</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">SO</a>
+    <div class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="but1.html" class="active">BUT 1</a>
+    </div>
+  </nav>
+  <main>
+    <div class="sae-detail">
+      <div class="sae-detail__header">
+        <div class="sae-detail__meta">
+          <span class="sae-detail__id">SAÉ S2.03</span>
+          <span class="sae-card__status sae-card__status--done">Terminé</span>
+        </div>
+        <h1 class="sae-detail__title">Installation de<br>services réseau</h1>
+        <p class="sae-detail__subtitle">Déploiement Linux, site web, MariaDB, phpMyAdmin, Ansible</p>
+        <div class="sae-detail__skills-row">
+          <span>Linux Fedora</span><span>Apache</span><span>MariaDB</span><span>Ansible</span><span>SSH</span><span>Compétence 3 — Administrer</span>
+        </div>
+      </div>
+
+      <div class="sae-detail__grid">
+
+        <div class="detail-block">
+          <div class="detail-block__label">📋 Bilan technique</div>
+          <h3>Contexte & Objectifs</h3>
+          <ul>
+            <li>Administrer un serveur Linux (Fedora) : comptes, services, pare-feu</li>
+            <li>Déployer site web Apache, BD MariaDB, phpMyAdmin, puis automatiser avec Ansible</li>
+          </ul>
+        </div>
+
+        <div class="detail-block">
+          <div class="detail-block__label">Ressources mobilisées</div>
+          <ul>
+            <li>R2.11 – Administration systèmes & réseaux</li>
+            <li>R2.04 – Gestion de données (MariaDB/SQL)</li>
+          </ul>
+        </div>
+
+        <div class="detail-block">
+          <div class="detail-block__label">Difficultés rencontrées</div>
+          <ul>
+            <li>Configuration du pare-feu pour exposer les services sans faille</li>
+            <li>Prise en main d'Ansible (playbooks, inventaire, modules)</li>
+            <li>Accès MariaDB distant via phpMyAdmin (config httpd + droits SQL)</li>
+          </ul>
+        </div>
+
+        <div class="detail-block">
+          <div class="detail-block__label">Objectifs atteints</div>
+          <ul>
+            <li>Serveur Linux opérationnel avec site, BD et phpMyAdmin</li>
+            <li>Playbook Ansible fonctionnel (groupe, utilisateur, fichier template)</li>
+          </ul>
+        </div>
+
+        <div class="detail-block">
+          <div class="detail-block__label">👥 Bilan humain — Équipe</div>
+          <ul>
+            <li>Travail en binôme (Smail Ouakli & Wail Moumtaz)</li>
+            <li>Bonne coordination avec comptes-rendus hebdomadaires</li>
+            <li>Progression en 4 semaines avec livrables à chaque séance</li>
+          </ul>
+        </div>
+
+        <div class="detail-block">
+          <div class="detail-block__label">Outils & Organisation</div>
+          <ul>
+            <li>Linux Fedora (serveur) + SSH</li>
+            <li>Apache httpd, MariaDB, PHP, phpMyAdmin</li>
+            <li>Ansible (venv Python) pour l'automatisation</li>
+          </ul>
+        </div>
+
+        <div class="detail-block detail-block--full">
+          <div class="detail-block__label">Mon rôle & mon autonomie</div>
+          <ul>
+            <li>Configuration du serveur Linux, création des comptes utilisateurs et gestion du pare-feu</li>
+            <li>Déploiement du site web et connexion MariaDB/phpMyAdmin</li>
+            <li>Rédaction du playbook Ansible final (Semaine 4) et du compte-rendu</li>
+          </ul>
+        </div>
+
+        <div class="detail-block">
+          <div class="detail-block__label">🎓 Auto-évaluation</div>
+          <div class="score-display">
+            <span class="score-display__num">4</span>
+            <span class="score-display__denom">/5</span>
+          </div>
+          <p class="score-display__label">Bonne maîtrise de l'administration Linux</p>
+          <p><strong>Compétence 3 — Administrer des systèmes informatiques communicants</strong><br>
+          AC1 : Configurer des services réseau (Apache, MariaDB, pare-feu)<br>
+          AC2 : Administrer un serveur Linux (comptes, droits, packages)<br>
+          AC3 : Automatiser les configurations avec Ansible</p>
+        </div>
+
+        <div class="detail-block">
+          <div class="detail-block__label">Retours & Progressions</div>
+          <div class="two-cols">
+            <div>
+              <div class="two-cols__heading two-cols__heading--keep">À conserver</div>
+              <ul>
+                <li>Méthode progressive semaine par semaine (comptes-rendus)</li>
+                <li>Usage d'Ansible pour automatiser</li>
+              </ul>
+            </div>
+            <div>
+              <div class="two-cols__heading two-cols__heading--improve">À perfectionner</div>
+              <ul>
+                <li>Sécuriser davantage (HTTPS, fail2ban)</li>
+                <li>Versionner les playbooks Ansible sur Git</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <p style="margin-top:2rem;"><a href="but1.html" style="font-family:var(--font-mono);font-size:0.8rem;color:var(--muted);">← Retour BUT 1</a></p>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>Smail Ouakli · BUT Informatique · IUT Blagnac · 2024–2027</p>
+  </footer>
+</body>
+</html>
